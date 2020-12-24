@@ -1,0 +1,82 @@
+/* body */
+
+body {
+  background-color: #F4F0DB;
+}
+
+/* connect4 title */
+
+#title {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+
+/* player status */
+
+#player-status {
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+/* game board table */
+
+#board {
+  margin: auto;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+  background-color: #FFFAF1;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 100%;
+}
+
+.p1 {
+  background-color: maroon;
+}
+
+.p2 {
+  background-color: navy;
+}
+
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+  border: dashed 1px lightgray;
+  background: white;
+}
+
+#column-top td:hover {
+  background-color: #DEC19B;
+}
+
+/* reset button */
+
+#reset {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* purpose */
+
+#purpose {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+}
